@@ -1,0 +1,110 @@
+body
+ {
+  background: #000080; 
+  color: #FFFFF2;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 150px;
+  min-width: 100px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: Consolas;
+  color: white;
+}
+
+input, textarea {
+  color: #272932;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  width: 300px;
+}x
+
+button {
+  
+  color: red;
+  margin: 20px;
+  padding: 10px;
+ 
+}
+
+button:hover {
+  background: blue;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 700ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.note {
+  color: #272932;
+  text-align: left;
+  padding: 6px 10px 1px 15px;
+  border-radius: 3px;
+  margin-top: 7px;
+  position: relative;
+}
+.note .noteTitle {
+  margin-right: 25px;
+}
+.note .timestamp {
+  font-size: 15px;
+  font-family: "Pridi", serif;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+}
+.note .noteControl {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+}
+.note .noteControl .removeNote {
+  font-size: 20px;
+  font-family: "arial";
+}
+.note .noteControl .expandNote {
+  font-size: 20px;
+  font-family: "arial";
+  margin-right: 10px;
+}
+.note .noteControl .expandNote:hover {
+  cursor: pointer;
+  color: #BE35EF;
+}
+.note .noteControl .removeNote:hover {
+  cursor: pointer;
+  color: #ff4e50;
+}
+.note .noteDetails {
+  color: #272932;
+  font-family: Avenir;
+  padding: 15px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.note .noteDivider {
+  height: 1px;
+  background: rgba(30, 30, 30, 0.5);
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
